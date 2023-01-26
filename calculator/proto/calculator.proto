@@ -4,8 +4,10 @@ package calculator;
 
 import "sum.proto";
 import "prime.proto";
+import "avg.proto";
 
 service CalculatorService {
   rpc Sum(SumRequest) returns (SumResponse);
   rpc Prime(PrimeRequest) returns (stream PrimeResponse);
+  rpc Avg(stream AvgRequest) returns (AvgResponse);
 };
