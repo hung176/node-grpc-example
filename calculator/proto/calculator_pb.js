@@ -27,3 +27,5 @@ var prime_pb = require('./prime_pb.js');
 goog.object.extend(proto, prime_pb);
 var avg_pb = require('./avg_pb.js');
 goog.object.extend(proto, avg_pb);
+var max_pb = require('./max_pb.js');
+goog.object.extend(proto, max_pb);
